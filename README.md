@@ -25,7 +25,7 @@ Advantage/Benefit of Modular CSS
 9. Add classes to child elements so that you are not tied to specific mark-up.
 10. Separate layout and positioning from component CSS style.
 11. Prefix class names for clarity.
-    Modular methodologies
+    #Modular methodologies
     There are several modular CSS methodologies, we will go through some of them with a basic description and example.
 12. OOCSS: definition/explanation and sample
     Object-oriented CSS (OOCSS) was created by Nicole Sullivan. OOCSS closely follows the concept of object-oriented programming principle of single responsibility and separation of concern. The idea is to create objects or components that are flexible, reusable, scalable, independent and easier to manage. Basically, objects are reusable patterns whose visual appearance is not determined by context.
@@ -64,8 +64,10 @@ width: 150px;
 height: 50px;
 border-radius: 5px;
 }
+<code>
 <a class="btn link" href="#">Home</a>
 <a class="btn-2 link" href="#">Blog</a>
+</code>
 II. Separation of container and content
 In this context, content refers to elements such as div, images, span, and paragraphs tags that are nested within other elements which is refers to as the containers.
 Example:
@@ -198,10 +200,12 @@ border-color: #bbb;
    Check the link below for example about SMACSS methodologies
    http://smacss.com/
 
-References:
+##References:
 https://medium.com/front-end-developers/css-modules-solving-the-challenges-of-css-at-scale-85789980b04f
+
 https://cssguidelin.es/#architectural-principles
-EDX Advanced CSS
+
+###EDX Advanced CSS
 https://courses.edx.org/courses/course-v1:Microsoft+DEV218x+4T2017/courseware/b306527c008944bdb62ff0ea5914e1ab/06716a7eea744fb68da0f126aa302802/?child=last
 
 https://github.com/stubbornella/oocss/wiki
